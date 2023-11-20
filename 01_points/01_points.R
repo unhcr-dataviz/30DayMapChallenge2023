@@ -115,14 +115,14 @@ plot_title <- "Refugee locations in the world"
 
 plot_subtitle <- "The descriptions below present a broad, simplified view of refugee accommodations globally, with actual situations varying by context."
 
-plot_caption <- "<em>The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.</em> <strong>Source:</strong> UNHCR Core GIS Data (as of 16 Nov. 2023)"
+plot_caption <- "<em>The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.</em> <strong>Source:</strong> UNHCR Core GIS Data (as of 20 Nov. 2023)"
 
 loc_label <- c(
     "settlement" = paste0(
         "<span style=\"margin-bottom:5px; font-size: 10pt; color:",
         loc_colors["settlement"],
         ";\">**Settlement (Formal and Informal)**</span><br>",
-        "Formal settlements are officially designated areas for asylum seekers, refugees, or IDPs, while informal settlements are spontaneous, self-identified settlements without official allocation or negotiations."
+        "Formal settlements are officially designated areas for refugees, while informal settlements are spontaneous, self-identified settlements without official allocation or negotiations."
     ),
     "centre" = paste0(
         "<span style=\"font-size: 10pt; color:",
@@ -140,7 +140,7 @@ loc_label <- c(
         "<span style=\"font-size: 10pt; color:",
         loc_colors["spontaneous"],
         ";\">**Spontaneous location**</span><br>",
-        "When people cross the border and settle in small groups along the border, often these people are moved to a transit centre, informal or formal settlement."
+        "When people cross the border and settle in small groups along the border, they are often moved to a transit centre, informal or formal settlement."
     )
 )
 
